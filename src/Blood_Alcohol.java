@@ -34,7 +34,7 @@ public class Blood_Alcohol {
             }
 
         double legalBAC = .08;
-        System.out.printf("Your BAC is %.6f", BAC);
+        System.out.printf("Your BAC is %.6f\n", BAC);
 
         String legal = (BAC >= legalBAC)
                 ? "It is not legal for you to drive."
